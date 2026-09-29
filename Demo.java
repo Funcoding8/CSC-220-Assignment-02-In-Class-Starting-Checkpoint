@@ -5,15 +5,15 @@ public class Demo {
         DoublyLinkedList<Integer> list = new DoublyLinkedList<>(); // Create a new doubly linked list of integers
 
 
-        list.addFirst(1); 
+        list.addFirst(2); 
 
         
-        list.addFirst(5);
+        list.addFirst(1);
 
       
-        list.addLast(20);
-                                // adds 1,5,20
-        System.out.println("Expected order: 5 1 20");
+        list.addLast(4);
+                                // adds 2,1,4
+        System.out.println("Expected order: 2 1 4");
         System.out.print("Actual order:   "); // Print the actual order of elements in the list
         list.printList();
 
